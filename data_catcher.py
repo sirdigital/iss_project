@@ -22,4 +22,4 @@ screen.bgpic("world.jpg")
 
 screen.bgpic()
 
-# position_every_second()
+position_every_second()
