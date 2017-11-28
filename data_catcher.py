@@ -42,6 +42,8 @@ def position_every_second():
 img = plt.imread("world.jpg")
 fig, ax = plt.subplots()
 
+ax.imshow(img, extent=[0, 3900, 0, 1820])
+
 dict = get_long_lat()
 
 plt.ion()
